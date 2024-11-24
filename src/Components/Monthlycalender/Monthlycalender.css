@@ -1,0 +1,40 @@
+.monthly-calendar {
+    border-radius: 10px;
+    padding: .5rem;
+  }
+  
+  .month-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .arrow {
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  
+  .month-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    justify-content: center;
+  }
+  
+  .day {
+    padding: .4rem;
+    margin: .3rem;
+    width: 12px;
+    height: 12px;
+    font-size: 14px;
+    background-color: rgb(78, 78, 78);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .day:hover {
+    background-color: #555;
+  }
+  

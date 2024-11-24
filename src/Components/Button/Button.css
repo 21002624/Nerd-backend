@@ -1,0 +1,114 @@
+
+  .custom-button {
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: rgb(27, 27, 27); 
+  }
+
+/* Base button styles */
+.group-btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Primary button */
+.group-btn.primary {
+  background-color: #007BFF; /* Blue */
+  color: #FFFFFF; /* White text */
+}
+
+.group-btn.primary:hover {
+  background-color: #0056b3;
+}
+
+.group-btn.primary:active {
+  background-color: #004085;
+  transform: scale(0.98);
+}
+
+/* Secondary button */
+.group-btn.secondary {
+  background-color: #6C757D; /* Gray */
+  color: #FFFFFF;
+}
+
+.group-btn.secondary:hover {
+  background-color: #5A6268;
+}
+
+.group-btn.secondary:active {
+  background-color: #495057;
+  transform: scale(0.98);
+}
+
+/* Danger button */
+.group-btn.danger {
+  background-color: #FF3B3B; /* Red */
+  color: #FFFFFF;
+}
+
+.group-btn.danger:hover {
+  background-color: #E63232;
+}
+
+.group-btn.danger:active {
+  background-color: #CC2929;
+  transform: scale(0.98);
+}
+
+/* Disabled button */
+.group-btn:disabled {
+  background-color: #E0E0E0; /* Light gray */
+  color: #A0A0A0; /* Gray text */
+  cursor: not-allowed;
+}
+
+
+
+
+/* Styles for the circular button */
+.add-task-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem; /* Adjust size as needed */
+  height: 3rem; /* Adjust size as needed */
+  background-color: #454545; /* Button color */
+  color: white; /* Plus sign color */
+  border-radius: 50%; /* Makes it circular */
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.add-task-btn:hover {
+  background-color: #454545; /* Darker shade on hover */
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.plus-sign {
+  font-size: 1.5rem; /* Size of the "+" symbol */
+  font-weight: bold;
+  user-select: none; /* Prevent text selection */
+  background-color: #454545;
+}
+
+  
+
+  
+

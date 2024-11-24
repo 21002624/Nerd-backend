@@ -1,0 +1,18 @@
+.Group{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 53.4vh;
+    border-radius: 1rem;
+    gap: .5rem;
+}
+.groupTitle{
+    font-size: smaller;
+}
+.numberOfGroups{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}

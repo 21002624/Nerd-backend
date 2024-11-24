@@ -1,0 +1,27 @@
+.Profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+    padding-top: 0px;
+    gap: .5rem
+}
+.userImg{
+    width: 9rem;
+    border-radius: 50%;
+    padding: .2rem;
+    box-shadow: 0 4px 6px rgba(167, 167, 167, 0.5);
+}
+.profileDetailsContainer{
+    display: flex;
+    align-items: center;
+}
+.profileFollowersContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.smallText{
+    font-size: small;
+}
